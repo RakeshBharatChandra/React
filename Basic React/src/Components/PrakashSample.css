@@ -1,0 +1,23 @@
+.Row_imgs {
+  background-color: grey;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.imgs:hover {
+  transform: scale(1.18);
+}
+.imgs {
+  object-fit: contain;
+  margin-right: 10px;
+  max-height: 250px;
+  transition: transform 450ms;
+}
+.Row_imgs::-webkit-scrollbar {
+  display: none;
+}
+
+#titl{
+    
+}
